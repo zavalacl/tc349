@@ -14,22 +14,21 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <link
 href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
 rel="stylesheet">
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
       <header>
-        <h1>Fishbowl</h1>
+        <h1>FishBowl</h1>
 
       </header>
       <section id="main-feed">
         <div id="feed-controls">
-          <a title= "Toggle Proximity" class="toggle-button selected"
-id="proximity" href="#"><i class="fa fa-location-arrow"></i></a>
-          <a class="toggle-button" id="public" href="#"><i class="fa
-fa-comment-o"></i></a>
+
+          <a title= "Toggle Proximity" class="toggle-button selected" id="proximity" href="#"><i class="fa fa-location-arrow"></i></a>
+          <a class="toggle-button" id="public" href="#"><i class="fa fa-comment-o"></i></a>
 
       </div>
       <form>
@@ -38,10 +37,28 @@ fa-comment-o"></i></a>
 
         <div id="feed">
           <ul>
-            <li>Baby momma drama</li>
-            <li>This prof talks too fast</li>
-            <li>Seriously, slow down!</li>
-          </ul>
+            <li>
+              <p class="user-count">349</p>
+              <h2>Baby momma drama</h2>
+              <p class="chat-meta">Created 20 seconds ago by <span class="username">jsiarto</span></p>
+              <p class="countdown alert"><i class="fa fa-clock-o"></i> 00:30:10</p>
+            </li>
+
+            <li>
+              <p class="user-count">349</p>
+              <h2>Baby momma drama</h2>
+              <p class="chat-meta">Created 20 seconds ago by <span class="username">jsiarto</span></p>
+              <p class="countdown warning"><i class="fa fa-clock-o"></i> 00:30:10</p>
+            </li>
+
+            <li>
+            <p class="user-count">349</p>
+            <h2>Baby momma drama</h2>
+            <p class="chat-meta">Created 20 seconds ago by <span class="username">jsiarto</span></p>
+            <p class="countdown"><i class="fa fa-clock-o"></i> 00:30:10</p>
+            </li>
+         </ul>
+
         </div>
       </section>
 
