@@ -1,0 +1,86 @@
+/* line 1, ../sass/components/_base.scss */
+.wrap {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/* line 6, ../sass/components/_base.scss */
+.footer {
+  background: #ecf0f1;
+  padding: 20px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* line 13, ../sass/components/_base.scss */
+.header {
+  background: #ecf0f1;
+  padding: 20px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin: 0;
+}
+
+/* line 1, ../sass/components/_bio.scss */
+.bio {
+  background: #D46F6A;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+}
+
+/* line 8, ../sass/components/_bio.scss */
+.bio-meta {
+  width: 960px;
+  height: 300px;
+  background: #FFAEAA;
+  border-top-right-radius: 5px;
+}
+
+/* line 15, ../sass/components/_bio.scss */
+.bio-meta h2 {
+  font-size: 1em;
+  padding: 50px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 1, ../sass/components/_showcase.scss */
+.showcase {
+  clear: both;
+  padding: 20px;
+  background: #D46F6A;
+}
+
+/* line 7, ../sass/components/_showcase.scss */
+.showcase img {
+  margin-bottom: 0px;
+  margin-left: 210px;
+  margin-top: 0px;
+}
+
+/* line 1, ../sass/components/_bestwork.scss */
+.bestwork {
+  clear: both;
+  padding: 20px;
+  background: #AA3F39;
+  width: 920px;
+  height: 300px;
+}
+
+/* line 9, ../sass/components/_bestwork.scss */
+.bestwork img {
+  margin-bottom: 0px;
+  margin-left: 210px;
+  margin-top: 0px;
+}
+
+/* line 1, ../sass/components/_about.scss */
+.about {
+  padding: 20px;
+}
+
+/* line 5, ../sass/components/_about.scss */
+.about p {
+  margin-left: 600px;
+}

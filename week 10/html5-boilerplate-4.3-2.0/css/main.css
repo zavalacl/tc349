@@ -101,6 +101,12 @@ body {
   background: #18453B;
 }
 
+@media(max-width: 600px) {
+  .media-grid{
+    width: 30%;
+  }
+}
+
 .wrap {
   margin: 0 auto;
   width: 960px;
