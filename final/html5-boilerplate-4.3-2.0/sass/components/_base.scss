@@ -1,0 +1,36 @@
+body {
+  background-color: #000;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 960px;
+}
+
+#navigation {
+  background-color:#fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  width: 30%;
+}
+
+#banner {
+  background: #fff;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin: 0;
+}
+
+a {
+  color: #7e7e7e;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline;
+  margin-left: 150px;
+}
